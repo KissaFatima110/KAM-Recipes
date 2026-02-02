@@ -30,6 +30,25 @@ This project’s backend is built with Node.js, Express.js, and Nodemailer to po
 ## ✅ Conclusion
 This project showcases the practical implementation of front-end and back-end web technologies to build a responsive, user-friendly recipe blog. By integrating dynamic features, clean UI design, and real-time feedback mechanisms, KAM-Recipes delivers an engaging experience for food enthusiasts. The collaborative effort reflects strong teamwork, technical proficiency, and creative presentation.
 
+## Beverages
+![Beverages Screenshot](beverages.PNG)
+
+## Confirmation
+![Confirmation Screenshot](confirmation.PNG)
+
+## Done
+![Done Screenshot](done.PNG)
+
+## Favorite Recipe
+![Favorite Recipe Screenshot](favrecipe.PNG)
+
+## Features
+![Features Screenshot](features.PNG)
+
+## Website Preview
+![Website Screenshot](website.PNG)
+
+
 
 
 
