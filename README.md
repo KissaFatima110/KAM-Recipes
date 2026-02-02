@@ -1,5 +1,5 @@
 # 🍴 KAM-Recipes
-👤 ## Group Members
+## 👤 Group Members
 - Kissa Fatima (**2023F-BCS-146**) 
 - Ayesha Khan (**2023F-BCS-198**)
 - Mariya Karim (**2023F-BCS-121**)
