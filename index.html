@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAM Recipes 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            padding: 15px 20px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #D4AF37; /* Golden text */
+            display: flex;
+            align-items: center;
+        }
+
+        .logo i {
+            color: #D4AF37; /* Golden icon */
+            margin-right: 10px;
+            font-size: 1.6rem;
+        }
+
+        .search-container input {
+            padding: 8px;
+            border: 2px solid #D4AF37;
+            border-radius: 4px;
+            background-color: #000;
+            color: #D4AF37;
+        }
+
+        .search-container input::placeholder {
+            color: #888;
+        }
+
+        .site-footer {
+            background-color: #111;
+            color: #D4AF37;
+            padding: 40px 20px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .footer-bottom-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .footer-quote {
+            color: #D4AF37;
+            font-size: 1.2rem;
+            margin: 15px 0;
+            font-style: italic;
+        }
+
+        .subscribe-section {
+            margin: 20px 0;
+        }
+
+        .subscribe-section p {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        /* Email input box styling */
+        .subscribe-section input {
+            padding: 10px;
+            border: 2px solid #D4AF37;
+            border-radius: 4px;
+            width: 250px;
+            margin-right: 10px;
+            background-color: #000;   /* Black background */
+            color: #D4AF37;           /* Golden text */
+        }
+
+        .subscribe-section input::placeholder {
+            color: #888; /* Placeholder stays subtle gray */
+        }
+
+        .subscribe-section button {
+            padding: 10px 20px;
+            background-color: #D4AF37;
+            border: none;
+            border-radius: 4px;
+            color: #111;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .social-links a {
+            color: #D4AF37;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-utensils"></i> <!-- Golden spoon & fork icon -->
+            KAM RECIPES
+        </div>
+        <div class="search-container">
+            <input type="text" id="recipeSearch" placeholder="Search 2026 recipes...">
+        </div>
+    </nav>
+
+    <div class="sub-navbar">
+        <a href="#" data-category="all">ALL</a>
+        <a href="#" data-category="asian">ASIAN</a>
+        <a href="#" data-category="mexican">MEXICAN</a>
+        <a href="#" data-category="italian">ITALIAN</a>
+        <a href="#" data-category="desserts">DESSERTS</a>
+        <a href="#" data-category="beverages">BEVERAGES</a>
+        <a href="#" data-category="quick">QUICK & EASY</a>
+    </div>
+
+    <header class="hero">
+        <h1>Season Favorites</h1>
+        <p>Make Meal Plans And Save your Favourite Recipes!</p>
+    </header>
+
+    <main class="recipe-grid" id="recipeContainer"></main>
+
+    <footer class="site-footer">
+        <div class="footer-quote">
+            “Life tastes better when shared.”
+        </div>
+
+        <div class="subscribe-section">
+            <p>Subscribe now and never miss a recipe! Join our foodie family today 🍴</p>
+            <input type="email" id="subscribeEmail" placeholder="Enter your email">
+            <button id="subscribeBtn">Subscribe</button>
+        </div>
+
+        <div class="social-links">
+            <a href="https://instagram.com/kamrecipes" target="_blank">
+                <i class="fab fa-instagram"></i> Follow us on Instagram
+            </a>
+        </div>
+
+        <div class="footer-bottom-bar">
+            <p>&copy; 2026 KAM Recipes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Subscribe button functionality
+        document.getElementById("subscribeBtn").addEventListener("click", function() {
+            const email = document.getElementById("subscribeEmail").value;
+            if (email.trim() !== "") {
+                alert("🎉 You’ve subscribed to KAM Recipes! Get ready for delicious updates 🍲");
+            } else {
+                alert("Please enter your email before subscribing 😊");
+            }
+        });
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Chicken Biryani",
+    "category": "asian",
+    "ingredients": ["Basmati Rice", "Chicken", "Onions", "Tomatoes", "Yogurt", "Spices", "Saffron Milk", "Ghee"],
+    "instructions": "1. Wash and soak rice for 30 minutes. 2. Fry onions until golden, add chicken and spices. 3. Add yogurt and cook until chicken is tender. 4. Layer rice and chicken, sprinkle saffron milk, cover tightly. 5. Steam on low heat for 20 minutes until rice is fluffy.",
+    "tips": "Use basmati rice for authentic aroma. Do not stir after layering to keep grains separate.",
+    "note": "Cooking biryani teaches patience and precision — every layer adds flavor, just like every effort adds success."
+  },
+  {
+    "id": 2,
+    "title": "Beef Korma",
+    "category": "asian",
+    "ingredients": ["Beef", "Yogurt", "Onions", "Garlic", "Ginger", "Spices", "Oil"],
+    "instructions": "1. Heat oil, fry onions until golden. 2. Add beef, garlic, ginger, and spices. 3. Stir in yogurt and cook slowly until beef is tender. 4. Simmer until oil separates and gravy thickens.",
+    "tips": "Slow cooking enhances flavor. Garnish with fried onions for extra richness.",
+    "note": "A dish like korma reminds us that slow, steady effort creates the richest rewards."
+  },
+  {
+    "id": 3,
+    "title": "Chowmein",
+    "category": "asian",
+    "ingredients": ["Egg Noodles", "Cabbage", "Carrots", "Bell Peppers", "Soy Sauce", "Garlic", "Oil"],
+    "instructions": "1. Boil noodles until al dente. 2. Heat oil, sauté garlic and vegetables. 3. Add noodles and soy sauce, stir-fry on high heat. 4. Toss until evenly coated.",
+    "tips": "Cook noodles al dente to avoid sogginess. Add chili sauce for spice.",
+    "note": "Quick stir-fries show us that even fast actions can be meaningful when done with care."
+  },
+  {
+    "id": 4,
+    "title": "Chicken Karahi",
+    "category": "asian",
+    "ingredients": ["Chicken", "Tomatoes", "Green Chilies", "Garlic", "Ginger", "Spices", "Oil"],
+    "instructions": "1. Heat oil in a wok, add garlic and ginger. 2. Add chicken and fry until sealed. 3. Add chopped tomatoes and spices, cook until gravy thickens. 4. Garnish with green chilies and coriander.",
+    "tips": "Serve hot with naan. Use fresh tomatoes for authentic taste.",
+    "note": "Karahi cooking is bold and fiery — a reminder to embrace challenges with strength."
+  },
+  {
+    "id": 5,
+    "title": "Spring Rolls",
+    "category": "quick",
+    "ingredients": ["Pastry Sheets", "Cabbage", "Carrots", "Bean Sprouts", "Soy Sauce", "Oil"],
+    "instructions": "1. Prepare filling by stir-frying vegetables with soy sauce. 2. Place filling in pastry sheets, roll tightly. 3. Seal edges with flour paste. 4. Deep fry until golden.",
+    "tips": "Keep oil medium hot to avoid burning. Serve with chili sauce.",
+    "note": "Spring rolls remind us that small packages can hold great joy — just like small efforts build big wins."
+  },
+  {
+    "id": 6,
+    "title": "Egg Fried Rice",
+    "category": "asian",
+    "ingredients": ["Cooked Rice", "Eggs", "Carrots", "Peas", "Soy Sauce", "Oil"],
+    "instructions": "1. Scramble eggs in a wok. 2. Add vegetables and stir-fry. 3. Add rice and soy sauce, toss on high heat. 4. Cook until rice is heated through.",
+    "tips": "Use leftover rice for best texture. Add sesame oil for aroma.",
+    "note": "Simple dishes like fried rice show us that everyday actions can still be extraordinary."
+  },
+  {
+    "id": 7,
+    "title": "Pizza Margherita",
+    "category": "italian",
+    "ingredients": ["Pizza Dough", "Tomato Sauce", "Mozzarella", "Fresh Basil", "Olive Oil"],
+    "instructions": "1. Preheat oven to 250°C. 2. Roll out dough, spread tomato sauce. 3. Add mozzarella slices and basil leaves. 4. Bake until crust is crisp and cheese bubbles.",
+    "tips": "Brush crust with olive oil for golden finish. Use a pizza stone for crispness.",
+    "note": "Pizza reminds us that balance — between crust, sauce, and cheese — creates harmony in life too."
+  },
+  {
+    "id": 8,
+    "title": "Lasagna",
+    "category": "italian",
+    "ingredients": ["Lasagna Sheets", "Meat Sauce", "Ricotta", "Mozzarella", "Parmesan"],
+    "instructions": "1. Boil pasta sheets. 2. Layer sheets with meat sauce and cheeses. 3. Repeat layers, top with mozzarella. 4. Bake until bubbly and golden.",
+    "tips": "Let lasagna rest before slicing. Cover with foil to prevent drying.",
+    "note": "Lasagna layers remind us that life’s challenges stack up — but so do its rewards."
+  },
+  {
+    "id": 9,
+    "title": "Alfredo Pasta",
+    "category": "italian",
+    "ingredients": ["Fettuccine", "Cream", "Butter", "Parmesan", "Garlic"],
+    "instructions": "1. Boil pasta until al dente. 2. Melt butter, sauté garlic. 3. Add cream and Parmesan, stir until smooth. 4. Toss pasta in sauce.",
+    "tips": "Add grilled chicken for protein. Use fresh Parmesan for flavor.",
+    "note": "Creamy Alfredo shows us that comfort and warmth can be created with simple care."
+  },
+  {
+    "id": 10,
+    "title": "Caprese Salad",
+    "category": "italian",
+    "ingredients": ["Tomatoes", "Mozzarella", "Basil", "Olive Oil", "Balsamic Glaze"],
+    "instructions": "1. Slice tomatoes and mozzarella. 2. Layer alternately with basil leaves. 3. Drizzle olive oil and balsamic glaze.",
+    "tips": "Use ripe tomatoes. Chill before serving for freshness.",
+    "note": "Caprese salad reminds us that freshness and simplicity are often the keys to happiness."
+  },
+  {
+    "id": 11,
+    "title": "Cannelloni",
+    "category": "italian",
+    "ingredients": ["Cannelloni Tubes", "Ricotta", "Spinach", "Tomato Sauce", "Mozzarella"],
+    "instructions": "1. Mix ricotta and spinach for filling. 2. Stuff tubes with filling. 3. Place in baking dish, cover with tomato sauce and mozzarella. 4. Bake until golden.",
+    "tips": "Cover with foil while baking to keep moist. Garnish with basil.",
+    "note": "Cannelloni teaches us that filling life with goodness makes everything more satisfying."
+  },
+  {
+    "id": 12,
+    "title": "Chicken Tacos",
+    "category": "mexican",
+    "ingredients": ["Tortillas", "Grilled Chicken", "Salsa", "Cheese", "Lettuce"],
+    "instructions": "1. Warm tortillas. 2. Fill with grilled chicken, salsa, cheese, and lettuce. 3. Fold and serve.",
+    "tips": "Warm tortillas for flexibility. Add avocado for creaminess.",
+    "note": "Tacos remind us that variety brings joy — every bite is a new adventure."
+  },
+  {
+    "id": 13,
+    "title": "Quesadillas",
+    "category": "mexican",
+    "ingredients": ["Tortillas", "Cheese", "Bell Peppers", "Onions"],
+    "instructions": "1. Place cheese and vegetables on tortilla. 2. Fold and grill until cheese melts. 3. Slice and serve.",
+    "tips": "Press gently while grilling. Serve with sour cream.",
+    "note": "Quesadillas show us that melting together differences can create something wonderful."
+  },
+  {
+    "id": 14,
+    "title": "Chilaquiles",
+    "category": "mexican",
+    "ingredients": ["Tortilla Chips", "Salsa Roja", "Cheese", "Eggs", "Onions", "Cilantro"],
+    "instructions": "1. Heat salsa in a pan. 2. Add tortilla chips and simmer until slightly softened. 3. Top with cheese and onions. 4. Fry eggs separately and place on top. 5. Garnish with cilantro.",
+    "tips": "Serve immediately to keep chips crisp. Add avocado slices for creaminess.",
+    "note": "Chilaquiles remind us that even leftovers can be transformed into something extraordinary with creativity."
+  },
+  {
+  "id": 15,
+  "title": "Enchiladas Mole",
+  "category": "mexican",
+  "ingredients": ["Corn Tortillas", "Shredded Chicken", "Mole Sauce", "Sesame Seeds", "Onions"],
+  "instructions": "1. Warm tortillas and fill with shredded chicken. 2. Roll and place in baking dish. 3. Cover with mole sauce. 4. Bake until heated through. 5. Garnish with sesame seeds and onions.",
+  "tips": "Use homemade mole for authentic flavor. Serve with rice and beans.",
+  "note": "Enchiladas teach us that rolling with life’s challenges can still lead to delicious outcomes."
+},
+{
+  "id": 16,
+  "title": "Kheer",
+  "category": "desserts",
+  "ingredients": ["Rice", "Milk", "Sugar", "Cardamom", "Nuts", "Raisins", "Saffron"],
+  "instructions": "1. Wash rice and cook in milk until soft. 2. Add sugar and cardamom. 3. Simmer until thick and creamy. 4. Add saffron, nuts, and raisins. 5. Serve warm or chilled.",
+  "tips": "Stir constantly to avoid sticking. Garnish with pistachios for elegance.",
+  "note": "Kheer reminds us that sweetness comes from patience and care in every step."
+},
+{
+  "id": 17,
+  "title": "Gulab Jamun",
+  "category": "desserts",
+  "ingredients": ["Milk Powder", "Flour", "Baking Soda", "Ghee", "Sugar Syrup", "Cardamom"],
+  "instructions": "1. Mix milk powder, flour, and baking soda. 2. Add ghee and knead into soft dough. 3. Shape into small balls. 4. Fry on low heat until golden brown. 5. Prepare sugar syrup with cardamom. 6. Soak fried balls in warm syrup for 2 hours.",
+  "tips": "Fry on low heat to avoid raw centers. Serve warm for best taste.",
+  "note": "Gulab Jamun shows us that soaking in kindness makes life sweeter."
+},
+{
+  "id": 18,
+  "title": "Cheesecake",
+  "category": "desserts",
+  "ingredients": ["Cream Cheese", "Sugar", "Eggs", "Vanilla", "Butter", "Crushed Biscuits"],
+  "instructions": "1. Mix crushed biscuits with melted butter, press into base. 2. Beat cream cheese, sugar, eggs, and vanilla until smooth. 3. Pour filling over base. 4. Bake at 160°C until set. 5. Chill overnight before serving.",
+  "tips": "Use room‑temperature cream cheese for smooth texture. Chill overnight for firmness.",
+  "note": "Cheesecake reminds us that a strong foundation makes everything above it shine."
+},
+{
+  "id": 19,
+  "title": "Oreo Cake",
+  "category": "desserts",
+  "ingredients": ["Oreos", "Flour", "Sugar", "Eggs", "Butter", "Milk"],
+  "instructions": "1. Crush Oreos finely. 2. Mix flour, sugar, eggs, butter, and milk into batter. 3. Fold in crushed Oreos. 4. Bake at 180°C until cooked through. 5. Cool and frost with Oreo cream.",
+  "tips": "Top with Oreo crumbs for decoration. Use double‑stuff Oreos for richer flavor.",
+  "note": "Oreo cake shows us that blending old favorites with new ideas creates joy."
+},
+{
+  "id": 20,
+  "title": "Vanilla Custard",
+  "category": "desserts",
+  "ingredients": ["Milk", "Sugar", "Vanilla Extract", "Cornstarch", "Egg Yolks"],
+  "instructions": "1. Heat milk with sugar and vanilla. 2. Mix cornstarch with egg yolks. 3. Slowly whisk hot milk into yolk mixture. 4. Return to pan, cook until thickened. 5. Chill before serving.",
+  "tips": "Stir constantly to avoid lumps. Serve with fruit or cake.",
+  "note": "Custard teaches us that smoothness in life comes from steady effort."
+},
+{
+  "id": 21,
+  "title": "Strawberry Ice Cream",
+  "category": "desserts",
+  "ingredients": ["Strawberries", "Cream", "Sugar", "Milk", "Vanilla"],
+  "instructions": "1. Blend strawberries with sugar. 2. Whip cream until soft peaks form. 3. Mix cream, milk, vanilla, and strawberry puree. 4. Freeze mixture, stirring every 2 hours until set.",
+  "tips": "Use fresh strawberries for vibrant flavor. Add chunks of fruit for texture.",
+  "note": "Ice cream reminds us that life is sweeter when shared."
+},
+{
+  "id": 22,
+  "title": "Butterscotch Pudding",
+  "category": "desserts",
+  "ingredients": ["Brown Sugar", "Butter", "Milk", "Cornstarch", "Vanilla"],
+  "instructions": "1. Melt butter and brown sugar until caramelized. 2. Add milk and stir. 3. Mix cornstarch with water, add to pan. 4. Cook until thickened. 5. Chill before serving.",
+  "tips": "Whisk continuously to avoid lumps. Garnish with whipped cream.",
+  "note": "Pudding reminds us that comfort comes from warmth and sweetness."
+},
+{
+  "id": 23,
+  "title": "Espresso",
+  "category": "beverages",
+  "ingredients": ["Coffee Beans", "Water"],
+  "instructions": "1. Grind coffee beans finely. 2. Brew using espresso machine with high pressure. 3. Serve immediately.",
+  "tips": "Use freshly ground beans for rich flavor. Preheat cup to retain heat.",
+  "note": "Espresso shows us that small doses of energy can power big achievements."
+},
+{
+  "id": 24,
+  "title": "Latte",
+  "category": "beverages",
+  "ingredients": ["Espresso", "Milk", "Foam"],
+  "instructions": "1. Brew espresso shot. 2. Steam milk until frothy. 3. Pour milk over espresso. 4. Top with foam art.",
+  "tips": "Use whole milk for creaminess. Practice foam art for presentation.",
+  "note": "Latte reminds us that blending strength with softness creates balance."
+},
+{
+  "id": 25,
+  "title": "Hot Chocolate",
+  "category": "beverages",
+  "ingredients": ["Milk", "Cocoa Powder", "Sugar", "Chocolate Chips"],
+  "instructions": "1. Heat milk in saucepan. 2. Whisk cocoa powder and sugar into milk. 3. Add chocolate chips, stir until melted. 4. Serve hot.",
+  "tips": "Add marshmallows for delight. Use dark chocolate for richness.",
+  "note": "Hot chocolate warms the soul, reminding us that comfort is found in simple joys."
+},
+{
+  "id": 26,
+  "title": "Mango Peach Delight",
+  "category": "beverages",
+  "ingredients": ["Mango", "Peach", "Yogurt", "Honey", "Ice Cubes"],
+  "instructions": "1. Peel and chop mango and peach. 2. Blend with yogurt, honey, and ice cubes. 3. Pour into glasses and serve chilled.",
+  "tips": "Use ripe fruits for sweetness. Garnish with mint leaves.",
+  "note": "Fruit blends remind us that harmony comes from combining different strengths."
+},
+{
+  "id": 27,
+  "title": "Pomegranate Power",
+  "category": "beverages",
+  "ingredients": ["Pomegranate Seeds", "Honey", "Water", "Ice Cubes", "Lemon Juice"],
+  "instructions": "1. Remove seeds from fresh pomegranates. 2. Blend seeds with honey, water, and lemon juice until smooth. 3. Strain juice to remove pulp. 4. Pour into glasses over ice cubes. 5. Garnish with mint leaves.",
+  "tips": "Add a pinch of black salt for tang. Use chilled water for refreshing taste.",
+  "note": "Pomegranate Power reminds us that strength comes from within — just like seeds bursting with energy."
+},
+{
+  "id": 28,
+  "title": "Cucumber Cooler",
+  "category": "beverages",
+  "ingredients": ["Cucumber", "Mint Leaves", "Lemon Juice", "Water", "Ice Cubes"],
+  "instructions": "1. Peel and chop cucumber. 2. Blend cucumber with mint leaves, lemon juice, and water until smooth. 3. Strain mixture for a clear drink. 4. Serve over ice cubes. 5. Garnish with cucumber slices and mint sprigs.",
+  "tips": "Add soda water for fizz. Chill cucumber before blending for extra coolness.",
+  "note": "Cucumber Cooler teaches us that calmness and freshness can restore energy in life’s heat."
+},
+{
+  "id": 29,
+  "title": "Berry Burst",
+  "category": "quick",
+  "ingredients": ["Mixed Berries", "Yogurt", "Honey", "Ice Cubes", "Chia Seeds"],
+  "instructions": "1. Wash and prepare mixed berries. 2. Add berries, yogurt, honey, and ice cubes to blender. 3. Blend until smooth and creamy. 4. Pour into chilled glasses. 5. Sprinkle chia seeds on top before serving.",
+  "tips": "Freeze berries beforehand for a thicker smoothie. Add banana for extra creaminess.",
+  "note": "Berry Burst reminds us that life’s colors and flavors shine brightest when blended together."
+},
+{
+  "id": 30,
+  "title": "Pineapple Punch",
+  "category": "quick",
+  "ingredients": ["Fresh Pineapple", "Orange Juice", "Mint Leaves", "Ice Cubes", "Sparkling Water"],
+  "instructions": "1. Peel and chop pineapple into chunks. 2. Blend pineapple with orange juice, mint leaves, and ice cubes. 3. Pour into glasses. 4. Top with sparkling water for fizz. 5. Garnish with mint sprigs or pineapple wedges.",
+  "tips": "Use ripe pineapple for natural sweetness. Add ginger for a zesty kick.",
+  "note": "Pineapple Punch reminds us that adding sparkle to life makes every moment more refreshing."
+}
+]

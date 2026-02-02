@@ -1,0 +1,256 @@
+/* Modern Reset */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', sans-serif; 
+}
+
+/* Background set to Deep Black, Global text to Gold */
+body { 
+    background-color: #0b0b0b; 
+    color: #D4AF37; 
+    line-height: 1.6;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: #111; 
+    border-bottom: 1px solid #D4AF37; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo { 
+    color: #D4AF37;
+    font-weight: bold; 
+    font-size: 1.5rem; 
+    letter-spacing: 1px; 
+}
+
+.search-container input { 
+    padding: 8px 15px; 
+    background: #1a1a1a;
+    color: #D4AF37;
+    border: 1px solid #D4AF37; 
+    border-radius: 20px; 
+    width: 250px; 
+}
+
+/* Sub-Navbar */
+.sub-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding: 12px 5%;
+    border-bottom: 1px solid #D4AF37;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.sub-navbar a {
+    color: #D4AF37;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+    border-right: 1px solid #333; 
+}
+
+.sub-navbar a:last-child { border-right: none; }
+.sub-navbar a:hover { color: #fff; }
+
+/* Hero Section */
+.hero { text-align: center; padding: 60px 20px; }
+.hero h1 { 
+    font-family: 'Playfair Display', serif; 
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    margin-bottom: 10px; 
+    color: #D4AF37;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.hero p { color: #bca136; margin-top: 10px; }
+
+/* The Grid */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 5% 60px;
+}
+
+/* Card Styling */
+.recipe-card {
+    background: #161616;
+    border-radius: 12px;
+    border: 1px solid #333; 
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.1); 
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    height: 100%;
+}
+
+.recipe-card:hover { 
+    transform: translateY(-8px); 
+    border-color: #D4AF37; 
+}
+
+/* Recipe Images */
+.recipe-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    filter: brightness(0.8);
+    transition: filter 0.3s ease;
+}
+
+.recipe-card:hover img {
+    filter: brightness(1);
+}
+
+/* Favorite Heart Styling */
+.favorite-heart {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    color: rgba(212, 175, 55, 0.8); 
+    cursor: pointer;
+    z-index: 10;
+    transition: transform 0.2s ease, color 0.2s ease;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.8));
+}
+
+.favorite-heart:hover { transform: scale(1.2); color: #fff; }
+.favorite-heart.active { color: #ff4d4d; filter: none; }
+
+/* Card Content Info */
+.card-info {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-tag { 
+    font-size: 0.75rem; 
+    color: #bca136; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.card-info h3 { 
+    font-size: 1.25rem; 
+    color: #D4AF37; 
+    margin: 0;
+}
+
+/* View Recipe Button */
+.card-info button {
+    margin-top: auto;
+    background: transparent;
+    border: 1px solid #D4AF37;
+    color: #D4AF37;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-info button:hover {
+    background: #D4AF37;
+    color: #000; 
+}
+
+/* Footer Section */
+.site-footer {
+    background-color: #000;
+    color: #D4AF37;
+    padding: 60px 5% 20px;
+    border-top: 1px solid #D4AF37;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column h4 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-column ul { list-style: none; }
+.footer-column ul li { margin-bottom: 12px; }
+.footer-column ul li a {
+    color: #bca136;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover { color: #fff; }
+
+.footer-subscribe input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #111;
+    border: 1px solid #333;
+    color: #D4AF37;
+}
+
+.footer-subscribe button {
+    width: 100%;
+    padding: 12px;
+    background: #D4AF37;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-bottom-bar {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #D4AF37;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover { color: #fff; }
+
+@media (max-width: 768px) {
+    .footer-bottom-bar { justify-content: center; text-align: center; }
+}
