@@ -41,11 +41,12 @@ The subscription popup allows users to enter their email to receive updates and 
 This project’s backend is built with Node.js, Express.js, and Nodemailer to power a recipe application. It enables users to instantly view complete recipe details when clicking the “View Recipe” button, and also provides the option to send their favorite recipes directly to their email for future access. Express.js manages the routes and request handling, while Nodemailer integrates with Gmail SMTP to deliver recipes in a professional format. Together, these technologies create a seamless experience that combines dynamic recipe viewing with reliable email delivery.
 
 ![Recipe Screenshot](recipe.PNG)
+
 ![Email Screenshot](confirmation.PNG)
 
 
 ## ✅ Conclusion
-This project showcases the practical implementation of front-end and back-end web technologies to build a responsive, user-friendly recipe blog. By integrating dynamic features, clean UI design, and real-time feedback mechanisms, KAM-Recipes delivers an engaging experience for food enthusiasts. The collaborative effort reflects strong teamwork, technical proficiency, and creative presentation.
+This project showcases the practical implementation of front-end and back-end web technologies to build a responsive, user-friendly recipe blog. By integrating dynamic features, clean UI design, and real-time feedback mechanisms, KAM-Recipes delivers an engaging experience for food enthusiasts.
 
 
 
